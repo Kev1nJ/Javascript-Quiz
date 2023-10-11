@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Belanosima;
+  box-sizing: border-box;
+}
+
+body{
+  background:rgb(0, 103, 120);
+}
+
+.app{
+  background: white;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+  }
+
+  .app h1{
+    font-size:50px;
+    font-style: bold;
+    color:  black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 103, 120);
+    border-bottom: 1px solid black ;
+    padding-bottom: 20px;
+}
+
+.question{
+  padding: 20px 0;
+}
+
+.question h2{
+  font-size: 30px;
+  font-style: bold;
+  color: rgb(215, 162, 42 );
+
+}
+
+.btn{
+  font-size: 20px;
+  background: rgb(215, 162, 42 );
+  color:rgb(0, 103, 120);
+  font-style:bold;
+  width: 100%;
+  border: 2px solid;
+  padding:15px;
+  margin: 15px 0;
+  cursor:pointer;
+  transition: 0.5s;
+}
+.btn:hover{
+  background:black;
+}
+
+#next-btn{
+  background: rgb(215, 162, 42 );
+  color:rgb(0, 103, 120);
+  font-style:bold;
+  width: 150px;
+  border: 2px solid;
+  padding:15px;
+  margin: 15px 0;
+  cursor:pointer;
+  transition: 0.5s;
+  display:none;
+}
+
+.correct{
+  background-color: green;
+
+}
+
+.incorrect{
+  background-color: red;
+}
+
+#start-button{
+  background: rgb(215, 162, 42 );
+  color:rgb(0, 103, 120);
+  font-style:bold;
+  width: 150px;
+  border: 2px solid;
+  padding:15px;
+  margin: 15px 0;
+  cursor:pointer;
+  transition: 0.5s;
+
+}
+
+#start-button:hover{
+  background:black;
+}
+
+#timer{
+  font-size: 20px;
+}
