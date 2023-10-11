@@ -38,6 +38,7 @@ script.js
 - JavaScript
 
 ## Screenshots
+![image](https://github.com/Kev1nJ/Javascript-Quiz/assets/137011939/fc0c9024-755c-47d7-81ce-cf12ae512d80)
 
 
 
